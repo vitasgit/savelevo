@@ -4,17 +4,47 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 20%;
+	padding-top: 230px;
 
 	&__head {
 		font-size: 62px;
+		padding-bottom: 0;
+		margin: 0;
 	}
 
 	&__subhead {
+		padding-bottom: 1rem;
 		font-size: 48px;
 	}
 
 	&__subhead span {
 		color: #4863be;
+	}
+
+	&__text {
+		font-size: 1.2rem;
+		position: relative;
+
+		&:before {
+			content: "";
+    		display: block;
+    		width: 28px;
+    		height: 2px;
+    		background-color: $primary;
+    		position: absolute;
+    		top: 50%;
+    		right: 107%;
+		}
+
+		&:after {
+			content: "";
+    		display: block;
+    		width: 28px;
+    		height: 2px;
+    		background-color: $primary;
+    		position: absolute;
+    		top: 50%;
+    		left: 107%;
+		}
 	}
 }

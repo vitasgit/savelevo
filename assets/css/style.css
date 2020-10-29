@@ -261,19 +261,49 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 230px;
 }
 
 .hero__head {
     font-size: 62px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 .hero__subhead {
+    padding-bottom: 1rem;
     font-size: 48px;
 }
 
 .hero__subhead span {
     color: #4863be;
+}
+
+.hero__text {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.hero__text:before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: #00C2FFFF;
+    position: absolute;
+    top: 50%;
+    right: 107%;
+}
+
+.hero__text:after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background-color: #00C2FFFF;
+    position: absolute;
+    top: 50%;
+    left: 107%;
 }
 
 body {
