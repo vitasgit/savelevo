@@ -1,0 +1,19 @@
+.logo-box {
+	min-width: 256px;
+	display: flex;
+	justify-content: space-around;
+
+	&__text {
+		color: $logo-color;
+		font-size: 20px;
+		font-weight: bold;
+		position: relative;
+	}
+}
+
+#tag {
+	font-size: 14px;
+	font-style: italic;
+	color: #814d4d;
+	opacity: .3;
+}

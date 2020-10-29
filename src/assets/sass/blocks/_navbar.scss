@@ -1,0 +1,43 @@
+.navbar {
+	font-size: 12px;
+	
+	&__menu {
+		width: 35px;
+		height: 35px;
+		fill: white;
+	}
+}
+
+.navbar-list {
+	display: inline-flex;
+
+	&__item {
+		padding: 2em 2em 1.1em 0;
+	}
+
+	&__link {
+		color: white;
+		font-weight: bold;
+		letter-spacing: .2em;
+		text-decoration: none;
+		text-transform: uppercase;
+		position: relative;
+
+		&:before {
+			content: "";
+    		display: block;
+    		width: 100%;
+    		height: 1.3px;
+    		background-color: $primary;
+    		position: absolute;
+    		top: -100%;
+    		right: 0;
+    		opacity: 0;
+    		transition: opacity .3s ease;
+		}
+	}
+}
+
+.navbar-list__link:hover:before {
+	opacity: 1;
+}
