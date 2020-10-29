@@ -179,7 +179,6 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
     font-size: 12px;
-    padding: 24px 0 16px 0;
 }
 
 .navbar__menu {
@@ -194,20 +193,36 @@ body::-webkit-scrollbar-thumb {
     display: inline-flex;
 }
 
+.navbar-list__item {
+    padding: 2em 2em 1.1em 0;
+}
+
 .navbar-list__link {
     color: white;
     font-weight: bold;
     letter-spacing: .2em;
-    padding: 1em 2em 1em 0;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-transition: color .3s ease;
-    -o-transition: color .3s ease;
-    transition: color .3s ease;
+    position: relative;
 }
 
-.navbar-list__link:hover {
-    color: #00C2FFFF;
+.navbar-list__link:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.3px;
+    background-color: #00C2FFFF;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.navbar-list__link:hover:before {
+    opacity: 1;
 }
 
 .logo-box {
