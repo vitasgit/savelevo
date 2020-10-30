@@ -4,7 +4,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 230px;
+	padding-top: 125px;
 
 	&__head {
 		font-size: 62px;
@@ -24,6 +24,7 @@
 	&__text {
 		font-size: 1.2rem;
 		position: relative;
+		margin-bottom: 10%;
 
 		&:before {
 			content: "";
@@ -45,6 +46,26 @@
     		position: absolute;
     		top: 50%;
     		left: 107%;
+		}
+	}
+
+	&-social {
+		display: flex;
+
+		&__link {
+			padding: .7rem;
+			opacity: .5;
+			transition: opacity .2s ease;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+
+		&__icon {
+			width: 24px;
+			height: 24px;
+			fill: white;
 		}
 	}
 }

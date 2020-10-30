@@ -261,7 +261,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-top: 230px;
+    padding-top: 125px;
 }
 
 .hero__head {
@@ -282,6 +282,7 @@ body::-webkit-scrollbar-thumb {
 .hero__text {
     font-size: 1.2rem;
     position: relative;
+    margin-bottom: 10%;
 }
 
 .hero__text:before {
@@ -304,6 +305,30 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     top: 50%;
     left: 107%;
+}
+
+.hero-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.hero-social__link {
+    padding: .7rem;
+    opacity: .5;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+
+.hero-social__link:hover {
+    opacity: 1;
+}
+
+.hero-social__icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
 }
 
 body {
