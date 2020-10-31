@@ -7,12 +7,43 @@
 
 	&__head {
 		font-size: 2em;
-		padding-bottom: 1em;
 		font-weight: bold;
+		color: $primary;
+		text-transform: uppercase;
+		padding-bottom: .5em;
 	}
 
 	&__subhead {
 		font-size: 1.2em;
+		position: relative;
+
+			&:before {
+				content: "";
+	    		display: block;
+	    		width: 90px;
+	    		height: 2px;
+	    		background-color: $gray;
+	    		position: absolute;
+	    		top: calc(50% - 2px);
+	    		right: calc(50% + 2rem);
+			}
+
+				&:after {
+					content: "";
+		    		display: block;
+		    		width: 90px;
+		    		height: 2px;
+		    		background-color: $gray;
+		    		position: absolute;
+		    		top: calc(50% - 2px);
+		    		left: calc(50% + 2rem);
+				}
+
+		&-icon {
+			width: 20px;
+			height: 20px;
+			fill: $gray;
+		}
 	}
 
 	&__text,

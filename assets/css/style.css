@@ -48,7 +48,7 @@ img {
     width: 50%;
     color: white;
     text-align: center;
-    background-color: #00C2FFFF;
+    background-color: #4c76ff;
     text-decoration: none;
     font-size: 1.5em;
     border-radius: 20px;
@@ -60,7 +60,7 @@ img {
 }
 
 .btn:hover {
-    background-color: #1ac8ff;
+    background-color: #668aff;
 }
 
 .btn-cta {
@@ -80,7 +80,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #00C2FFFF;
+    background-color: #4c76ff;
     border-radius: 1em;
 }
 
@@ -94,12 +94,43 @@ body::-webkit-scrollbar-thumb {
 
 .page__head {
     font-size: 2em;
-    padding-bottom: 1em;
     font-weight: bold;
+    color: #4c76ff;
+    text-transform: uppercase;
+    padding-bottom: .5em;
 }
 
 .page__subhead {
     font-size: 1.2em;
+    position: relative;
+}
+
+.page__subhead:before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: #bfbfbf;
+    position: absolute;
+    top: calc(50% - 2px);
+    right: calc(50% + 2rem);
+}
+
+.page__subhead:after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: #bfbfbf;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: calc(50% + 2rem);
+}
+
+.page__subhead-icon {
+    width: 20px;
+    height: 20px;
+    fill: #bfbfbf;
 }
 
 .page__text, .page-figure__quote {
@@ -139,7 +170,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .page-figure__caption {
-    color: #00C2FFFF;
+    color: #4c76ff;
     font-weight: bold;
 }
 
@@ -149,6 +180,10 @@ body::-webkit-scrollbar-thumb {
     background: url("../img/hero/hero_background.jpg");
     background-position: 50%;
     background-size: cover;
+}
+
+.section-features {
+    background-color: #efefef;
 }
 
 .section-footer {
@@ -211,7 +246,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
     width: 100%;
     height: 1.3px;
-    background-color: #00C2FFFF;
+    background-color: #4c76ff;
     position: absolute;
     top: -100%;
     right: 0;
@@ -290,7 +325,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
     width: 28px;
     height: 2px;
-    background-color: #00C2FFFF;
+    background-color: #4c76ff;
     position: absolute;
     top: 50%;
     right: 107%;
@@ -301,7 +336,7 @@ body::-webkit-scrollbar-thumb {
     display: block;
     width: 28px;
     height: 2px;
-    background-color: #00C2FFFF;
+    background-color: #4c76ff;
     position: absolute;
     top: 50%;
     left: 107%;
@@ -411,11 +446,11 @@ body {
     }
 }
 
-.services-list {
+.features-list {
     border: solid;
 }
 
-.services-list__item {
+.features-list__item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -428,7 +463,7 @@ body {
     align-items: center;
     width: 100%;
     text-align: center;
-    background: #00C2FFFF;
+    background: #4c76ff;
     padding: 4rem 1rem;
     -webkit-transition: all .4s ease;
     -o-transition: all .4s ease;
@@ -436,13 +471,13 @@ body {
     border: solid;
 }
 
-.services-list__item:hover {
-    -webkit-box-shadow: 0px 15px 30px rgba(0, 194, 255, 0.3);
-    box-shadow: 0px 15px 30px rgba(0, 194, 255, 0.3);
+.features-list__item:hover {
+    -webkit-box-shadow: 0px 15px 30px rgba(76, 118, 255, 0.3);
+    box-shadow: 0px 15px 30px rgba(76, 118, 255, 0.3);
     background: #fff;
 }
 
-.services-list__img {
+.features-list__img {
     width: 64px;
 }
 
