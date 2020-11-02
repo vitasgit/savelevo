@@ -196,10 +196,13 @@ body::-webkit-scrollbar-thumb {
     margin: 4rem 0 1rem 0;
 }
 
+.section--padding-vertical {
+    padding: 100px 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: 974px;
-    padding: 100px 0;
 }
 
 .header {
