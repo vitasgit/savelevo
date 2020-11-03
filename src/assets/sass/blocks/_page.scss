@@ -17,7 +17,7 @@
 		font-size: 1.2em;
 		position: relative;
 
-			&:before {
+			/*&:before {
 				content: "";
 	    		display: block;
 	    		width: 90px;
@@ -26,18 +26,18 @@
 	    		position: absolute;
 	    		top: calc(50% - 2px);
 	    		right: calc(50% + 2rem);
-			}
+			}*/
 
-				&:after {
-					content: "";
-		    		display: block;
-		    		width: 90px;
-		    		height: 2px;
-		    		background-color: $gray;
-		    		position: absolute;
-		    		top: calc(50% - 2px);
-		    		left: calc(50% + 2rem);
-				}
+			/*&:after {
+				content: "";
+	    		display: block;
+	    		width: 90px;
+	    		height: 2px;
+	    		background-color: $gray;
+	    		position: absolute;
+	    		top: calc(50% - 2px);
+	    		left: calc(50% + 2rem);
+			}*/
 
 		&-icon {
 			width: 20px;

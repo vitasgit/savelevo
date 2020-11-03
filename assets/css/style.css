@@ -103,28 +103,26 @@ body::-webkit-scrollbar-thumb {
 .page__subhead {
     font-size: 1.2em;
     position: relative;
-}
-
-.page__subhead:before {
-    content: "";
-    display: block;
-    width: 90px;
-    height: 2px;
-    background-color: #bfbfbf;
-    position: absolute;
-    top: calc(50% - 2px);
-    right: calc(50% + 2rem);
-}
-
-.page__subhead:after {
-    content: "";
-    display: block;
-    width: 90px;
-    height: 2px;
-    background-color: #bfbfbf;
-    position: absolute;
-    top: calc(50% - 2px);
-    left: calc(50% + 2rem);
+    /*&:before {
+				content: "";
+	    		display: block;
+	    		width: 90px;
+	    		height: 2px;
+	    		background-color: $gray;
+	    		position: absolute;
+	    		top: calc(50% - 2px);
+	    		right: calc(50% + 2rem);
+			}*/
+    /*&:after {
+				content: "";
+	    		display: block;
+	    		width: 90px;
+	    		height: 2px;
+	    		background-color: $gray;
+	    		position: absolute;
+	    		top: calc(50% - 2px);
+	    		left: calc(50% + 2rem);
+			}*/
 }
 
 .page__subhead-icon {
@@ -376,6 +374,51 @@ body::-webkit-scrollbar-thumb {
     fill: white;
 }
 
+.features-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left;
+    width: 100%;
+    padding: 4rem 1rem;
+}
+
+.services__subhead {
+    padding-bottom: 4rem;
+}
+
+.services-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.services-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.services-list__item {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.services-image {
+    width: 30%;
+    height: 30%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -454,21 +497,6 @@ body {
         grid-column: span 1;
         grid-row: span 1;
     }
-}
-
-.features-list__item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: left;
-    -ms-flex-align: left;
-    align-items: left;
-    width: 100%;
-    padding: 4rem 1rem;
 }
 
 .footer {

@@ -1,32 +1,24 @@
 .services {
-	
-}
+	&__subhead {
+		padding-bottom: 4rem;
+	}
 
-.services-list {
-	border: solid;
-
-	&__item {
+	&-content {
 		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-		text-align: center;
-		background: $primary;
-		padding: 4rem 1rem;
-		transition: all .4s ease;
-		border: solid;
+		justify-content: space-between;
+	}
 
-		&:hover {
-			box-shadow: 0px 15px 30px rgba($primary, 0.3);
-    		background: #fff;
+	&-list {
+		flex-direction: column;
+
+		&__item {
+			padding-top: 3rem;
+			padding-bottom: 1.5rem;
 		}
 	}
 
-	&__img {
-		width: 64px;
-	}
-
-	&__text {
-
+	&-image {
+		width: 30%;
+		height: 30%;
 	}
 }
