@@ -89,6 +89,16 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
 }
 
+.page-heart {
+    text-align: center;
+}
+
+.page-heart__icon {
+    width: 20px;
+    height: 20px;
+    fill: #bfbfbf;
+}
+
 .page__head, .page__subhead {
     text-align: center;
 }
