@@ -4,6 +4,7 @@
 /* Default styles */
 body {
     margin: 0;
+    padding: 0;
     font-family: 'myriadpro-bold', sans-serif;
 }
 
@@ -49,6 +50,7 @@ img {
 @import "blocks/_btn.scss";
 @import "blocks/_scrollbar.scss";
 @import "blocks/_scrolldown.scss";
+@import "blocks/_grid.scss";
 
 @import "blocks/_page.scss";
 @import "blocks/_section.scss";
