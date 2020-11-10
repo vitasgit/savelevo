@@ -1,0 +1,18 @@
+.facts {
+	&-list {
+		&__item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-transform: uppercase;
+		}
+
+		&__icon {
+			height: 100px;
+		}
+
+		&__number-val {
+			font-size: 2.7rem;
+		}
+	}
+}
