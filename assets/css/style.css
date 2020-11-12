@@ -272,6 +272,11 @@ body::-webkit-scrollbar-thumb {
     background-color: #efefef;
 }
 
+.section-facts {
+    background-image: url("../img/facts/facts-bg1.png");
+    position: relative;
+}
+
 .section-footer {
     margin: 4rem 0 1rem 0;
 }
@@ -500,6 +505,13 @@ body::-webkit-scrollbar-thumb {
     width: 32%;
 }
 
+.facts-list {
+    color: white;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 .facts-list__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -516,6 +528,8 @@ body::-webkit-scrollbar-thumb {
 
 .facts-list__icon {
     height: 100px;
+    width: 100px;
+    fill: white;
 }
 
 .facts-list__number-val {
