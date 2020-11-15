@@ -13,7 +13,10 @@
 		&__icon {
 			height: 100px;
 			width: 100px;
+			padding: 2rem;
 			fill: white;
+			border: solid;
+			border-radius: 50%;
 		}
 
 		&__number-val {

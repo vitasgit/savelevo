@@ -273,8 +273,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section-facts {
-    background-image: url("../img/facts/facts-bg1.png");
-    position: relative;
+    background-image: url("../img/facts/facts-bg.png");
 }
 
 .section-footer {
@@ -529,7 +528,10 @@ body::-webkit-scrollbar-thumb {
 .facts-list__icon {
     height: 100px;
     width: 100px;
+    padding: 2rem;
     fill: white;
+    border: solid;
+    border-radius: 50%;
 }
 
 .facts-list__number-val {
