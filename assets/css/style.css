@@ -538,6 +538,117 @@ body::-webkit-scrollbar-thumb {
     font-size: 2.7rem;
 }
 
+.contacts-address, .contacts-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contacts-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.contacts-social__link {
+    padding: .7rem;
+    opacity: .5;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+
+.contacts-social__link:hover {
+    opacity: 1;
+}
+
+.contacts-social__icon {
+    width: 24px;
+    height: 24px;
+    fill: black;
+}
+
+.form {
+    width: 100%;
+    padding: 0 1.5rem;
+    display: block;
+}
+
+.form__box {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form__input, .form__textarea {
+    padding: 0.8rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 64, 111, 0.2);
+    border-radius: 4px;
+}
+
+.form__input-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.form__input {
+    width: 340px;
+    height: 36px;
+}
+
+.form__textarea {
+    width: 699px;
+    height: 136px;
+    margin-top: 20px;
+    outline: none;
+    resize: none;
+}
+
+.form__inputfile {
+    display: none;
+}
+
+.form__btn-inputfile {
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.form__btn-inputfile:hover {
+    color: black;
+}
+
+.form__btn-inputfile:active {
+    opacity: 0.7;
+}
+
+.form__btn {
+    width: 100%;
+}
+
 .footer {
     display: -webkit-box;
     display: -ms-flexbox;
