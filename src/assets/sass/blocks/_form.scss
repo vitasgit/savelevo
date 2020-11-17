@@ -1,6 +1,6 @@
 .form {
 	width: 100%;
-	padding: 0 1.5rem;
+	padding: 0 1.7rem;
 	display: block;
 }
 
@@ -13,6 +13,12 @@
 		border: none;
 		margin: 0;
 		padding: 0;
+	}
+
+	&__head {
+		color: $dark-blue;
+		text-align: right;
+		padding-bottom: 2rem;
 	}
 
 	&__input, 

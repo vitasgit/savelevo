@@ -546,6 +546,9 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.contacts-social {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -555,6 +558,11 @@ body::-webkit-scrollbar-thumb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+
+.contacts-address__head {
+    color: #062033;
+    padding-bottom: 2rem;
 }
 
 .contacts-social__link {
@@ -577,7 +585,7 @@ body::-webkit-scrollbar-thumb {
 
 .form {
     width: 100%;
-    padding: 0 1.5rem;
+    padding: 0 1.7rem;
     display: block;
 }
 
@@ -596,6 +604,12 @@ body::-webkit-scrollbar-thumb {
     border: none;
     margin: 0;
     padding: 0;
+}
+
+.form__head {
+    color: #062033;
+    text-align: right;
+    padding-bottom: 2rem;
 }
 
 .form__input, .form__textarea {

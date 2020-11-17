@@ -3,11 +3,21 @@
 	&-social {
 		display: flex;
 		flex-direction: column;
+	}
+
+	&-social {
 		justify-content: space-between;
 	}
 
 	&-block {
 		display: flex;
+	}
+
+	&-address {
+		&__head {
+			color: $dark-blue;
+			padding-bottom: 2rem;
+		}
 	}
 
 	&-social {
