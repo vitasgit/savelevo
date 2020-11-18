@@ -33,16 +33,6 @@
 	grid-column: span 3;
 }
 
-// .grid .slider-list__item.d,
-// .grid .slider-list__item.e
-// {
-// 	grid-column: span 1;
-// }
-
-// .grid .slider-list__item.f {
-// 	grid-column: span 1;
-// }
-
 @media (max-width: 991px) {
 	.grid {
 		grid-template-columns: repeat(2, 1fr);
