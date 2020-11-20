@@ -356,26 +356,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logo-box {
-    min-width: 256px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
 }
 
 .logo-box__text {
     color: white;
     font-size: 20px;
     font-weight: bold;
-    position: relative;
-}
-
-#tag {
-    font-size: 14px;
-    font-style: italic;
-    color: #814d4d;
-    opacity: .3;
 }
 
 .hero {
@@ -678,6 +667,10 @@ body::-webkit-scrollbar-thumb {
     padding: 1em 0;
 }
 
+.footer-licence__head, .footer-subscribe__head, .footer-explore__head {
+    padding-bottom: 1.5rem;
+}
+
 .footer-social__item {
     margin-right: .5em;
 }
@@ -698,6 +691,11 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+}
+
+.footer-explore__link {
+    color: white;
+    text-decoration: none;
 }
 
 .footer.grid {
