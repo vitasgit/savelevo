@@ -494,6 +494,29 @@ body::-webkit-scrollbar-thumb {
     width: 32%;
 }
 
+.slider-list__item {
+    position: relative;
+}
+
+.slider-list__item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #4c76ff;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity .45s ease;
+    -o-transition: opacity .45s ease;
+    transition: opacity .45s ease;
+}
+
+.slider-list__item:hover:after {
+    opacity: .9;
+}
+
 .facts-list {
     color: white;
     -webkit-box-pack: justify;
