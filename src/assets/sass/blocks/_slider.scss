@@ -19,6 +19,31 @@
 			&:after {
 				opacity: .9;
 			}
+
+			.slider-caption {
+				opacity: 1;
+			}
 		}
+	}
+}
+
+.slider-caption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	color: white;
+	opacity: 0;
+	top: calc(50% - 1rem);
+	position: absolute;
+	z-index: 1;
+	transition: opacity .45s ease;
+
+	&__head {
+		font-size: 1.2rem;
+	}
+
+	&__subhead {
+		
 	}
 }

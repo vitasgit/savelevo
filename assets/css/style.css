@@ -517,6 +517,36 @@ body::-webkit-scrollbar-thumb {
     opacity: .9;
 }
 
+.slider-list__item:hover .slider-caption {
+    opacity: 1;
+}
+
+.slider-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    opacity: 0;
+    top: calc(50% - 1rem);
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: opacity .45s ease;
+    -o-transition: opacity .45s ease;
+    transition: opacity .45s ease;
+}
+
+.slider-caption__head {
+    font-size: 1.2rem;
+}
+
 .facts-list {
     color: white;
     -webkit-box-pack: justify;
